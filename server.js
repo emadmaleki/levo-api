@@ -4,7 +4,7 @@ const fileUpload = require('express-fileupload');
 const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 const app = express();
 
 server.use(middlewares);
